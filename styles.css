@@ -28,9 +28,10 @@ body{
          justify-content: center;
          align-items: center;
  }
-  .text h1{
+  .text p{
    
    margin: 0 auto 0;
+   font-weight: bold;
    color:#A35709;
    display:flex;
    justify-content: center;
@@ -40,6 +41,7 @@ body{
    text-decoration: none;
    color: #F96D00;
    text-transform: uppercase;
+   font-weight: bold;
 
 }
 
@@ -52,7 +54,7 @@ body{
     height: 49px;
    
     border: 2px solid #F96D00;
-    background-color:#FFEBCC';
+    background-color:#FFEBCC;
     box-sizing: border-box;
     border-radius: 4px;
     text-align:  center;
@@ -61,7 +63,15 @@ body{
 .links:hover{
    background:#F3C892;
 }
+.social-networks{
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+}
 
+.social-networks a{
+   margin:10px;
+}
 
 footer{
    text-align: center;
